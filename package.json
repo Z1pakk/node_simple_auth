@@ -1,0 +1,30 @@
+{
+  "name": "node_simple_auth",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Z1pakk/node_simple_auth.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Z1pakk/node_simple_auth/issues"
+  },
+  "homepage": "https://github.com/Z1pakk/node_simple_auth#readme",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "express": "^4.18.1",
+    "express-validator": "^6.14.0",
+    "jsonwebtoken": "^8.5.1",
+    "mongoose": "^6.3.2"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.16"
+  }
+}
